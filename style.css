@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumar+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-size: 1rem;
+    box-sizing: border-box;
+    
+    background-image: linear-gradient(135deg
+    ,#7ec9f5,#3957ed,#3e7a9c,#3957ed,#3957ed);
+    background-color: #69ddec;
+    justify-content: flex;
+    box-sizing: border-box;
+    justify-items: flex;
+    
+    
+    }
+    .header{
+    padding: 2% 0 0 20%;
+    background-image: linear-gradient(135deg
+    ,#3e7ea5,#1a455e,#142785);
+    width: 80.5vw;
+   
+    }
+    
+    .header__menu__link{
+        
+    color: rgb(190, 206, 169);
+    padding: 10px;
+    text-align: center;
+    font-family: "Kumar One", serif;
+    justify-content: flex;
+    gap: 20%;
+    text-decoration: none;
+    
+    }
+.fondo_pagina{
+        width: 100.39vw;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content:center;
+        background-image: linear-gradient(135deg
+        ,#7ec9f5,#3957ed,#3e7a9c,#3957ed,#3957ed);
+        background-color: #69ddec;
+       
+        ;
+        }
+        
+        .presentacion{
+            margin: 2% 2%;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 82px;
+            
+            }
+            .presentacion__contenido{
+                width: 50%;
+                display: flex;
+                flex-direction: column; /*establece elementos de forma de columna*/
+                gap: 20px; /* crea un espacio entre elemetos*/
+                align-items: center;
+                
+                
+                }
+            .estilo__fuente__titulo{
+                font-size: 1.81rem;
+                color: #0a0a0a;
+                font-family: "Kumar One", serif;
+                align-items: center;
+                }
+input{
+    height: 100px;width: 100%;
+    font-size: 1.1rem;
+
+    
+    }
+    .presentacion__botones{
+        display: flex;
+        align-items: center;  
+        justify-content: center; /*alinea los botones*/
+        gap: 80px;
+        }
+        .estilo__boton__encriptador{
+            width: 60%;            
+            text-align: center;
+            padding: 21.5px 0;
+            border-radius: 16px;
+            font-family: "Montserrat", sans-serif;
+            font-size: 0.8rem;
+            font-weight: 500;
+            text-decoration: none;
+            color: black;
+            border: 4px groove #22d4fd;
+            flex-direction: column;    
+            }
+            .estilo__boton__encriptador:hover{
+                background-color: #727272; /* cambia color de botones cuando pasamos el curso por encima*/
+            }
+            .estilo__boton__Desencriptador{
+                width: 60%;            
+            text-align: center;
+            padding: 21.5px 0;
+            border-radius: 16px;
+            font-family: "Montserrat", sans-serif;
+            font-size: 0.8rem;
+            font-weight: 500;
+            text-decoration: none;
+            color: black;
+            border: 4px groove #22d4fd;
+            flex-direction: column; 
+            }
+            .estilo__boton__Desencriptador:hover{
+                background-color: #727272;/* cambia color de botones cuando pasamos el curso por encima*/
+            }
+            .estilo__cajadetexto{
+                color: black;
+                border: 2px solid #e2dbce;/* borde de la caja de texto y color*/
+                border-radius: 16px; /* inclinacion o circulo de la caja de texto*/
+                
+                }
+    .imagen__presentacion{
+        width: 30%;
+        
+    }
+                
+.estilo__boton__copiar{
+    display: flex;
+    width: 50%;           
+    text-align: center;
+    padding: 21.5px ;
+    border-radius: 16px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-decoration: none;
+    color: black;
+    border: 2px groove #22d4fd;
+    flex-direction: column;
+    }
+.estilo__boton__copiar:hover{
+    background-color: #727272;/* cambia color de botones cuando pasamos el curso por encima*/
+    padding: 21.5% 10; /*espacio entre el borde del boton y el texto*/
+   
+}
+.footer{
+    
+    background-image: linear-gradient(135deg
+    ,#7ec9f5,#3957ed,#7ec9f5,#3957ed);
+    color: beige;
+    padding: 20px;
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    justify-content: flex;
+    width: 97.1vw; /* ancho de footer*/
+    
+
+}
+@media  (max-width: 700px) {
+    .presentacion__botones{
+        flex-direction: row;
+        justify-content: flex;
+    }
+    .presentacion{
+        flex-direction: column-reverse;
+        justify-content: flex;
+       
+        width: auto;
+    }
+   .estilo__cajadetexto{
+    justify-content: flex;
+   }
+   .presentacion__botones
+   {
+    justify-content: flex;
+   }
+   .presentacion__contenido{
+    width: auto;
+   }
+   .fondo_pagina{
+    width: auto;
+   }
+   
+}
+
+
+

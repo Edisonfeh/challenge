@@ -10,12 +10,14 @@ botonCopiar.style.display = "none";
 inputDestino.style.display ="none";
 imagen1.style.display = "block"
 //funcion para encriptar
+
 function encriptarTexto(texto){
     if (!/^[a-z ñ]+$/.test(texto)) {
         alert("El texto debe ser en minúsculas,sin acentos y sin caracteres especiales");//validacion de caracteres especiales en boton encriptar
         return undefined;
         
     }
+    
     const reglas ={
         a:"ai",
         e:"enter",
@@ -25,7 +27,10 @@ function encriptarTexto(texto){
     };
     
     return texto.split("").map(letra=>reglas[letra]||letra).join("");
+    
 }
+
+
 //Funcion para desencriptar texto
 
 function DesencriptarTexto(texto) {

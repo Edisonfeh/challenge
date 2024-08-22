@@ -112,3 +112,45 @@ body{
     font-size: 24px;
     font-weight: 400;
 }
+@media  (max-width: 700px){
+   .presentacion__contenido{
+     width: auto;
+}
+.presentacion{
+    flex-direction: column-reverse;
+    justify-content: flex;
+    width: auto;
+}
+.imagen__presentacion{
+    width: 10%;
+    height: 10%;
+}
+.presentacion__contenido__titulo{
+    flex-direction: column-reverse;
+    justify-content: flex;
+    width: 80.55%;
+}
+.presentacion__enlaces__link{
+    justify-content: flex;
+    flex-direction: row;
+}
+.imagen_ingeniero{
+    justify-content: flex;
+    width: 80.55%;
+    height: 50%;
+}
+.presentacion__contenido__texto{
+    flex-direction: column-reverse;
+    justify-content: flex;
+    width: 80.55%;
+}
+.presentacion__enlaces{
+    flex-direction: column-reverse;
+    justify-content: flex;
+    width: 80.55%;
+    
+}
+.presentacion__enlaces__subtitulo{
+    font-size: 15 px;
+}
+}

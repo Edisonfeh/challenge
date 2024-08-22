@@ -20,7 +20,7 @@ body{
     .header{
     padding: 2% 0 0 20%;
     background-image: linear-gradient(135deg
-    ,#3e7ea5,#1a455e,#142785); /*fondo de header*/
+    ,#3e7ea5,#396d8b,#37458a); /*fondo de header*/
     width: 80.5vw;
    
     }
@@ -43,7 +43,7 @@ body{
         align-items: center;
         justify-content:center;
         background-image: linear-gradient(135deg
-        ,#7ec9f5,#3957ed,#3e7a9c,#3957ed,#3957ed); /*fondo body */
+        ,#7ec9f5,#e1e3ec,#3e7a9c,#435196,#6b78b9); /*fondo body */
         background-color: #69ddec;
        
         ;
@@ -152,7 +152,7 @@ input{
 .footer{
     
     background-image: linear-gradient(135deg
-    ,#7ec9f5,#3957ed,#7ec9f5,#3957ed);
+    ,#7ec9f5,#677ef1,#aad7f1,#7f92f5);
     color: beige;
     padding: 20px;
     text-align: center;

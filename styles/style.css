@@ -37,7 +37,7 @@ body{
     
     }
 .fondo_pagina{
-        width: 100.39vw;
+        width: 87.3vw;
         height: 100vh;
         display: flex;
         align-items: center;
@@ -158,7 +158,7 @@ input{
     text-align: center;
     font-family: "Montserrat", sans-serif;
     justify-content: flex;
-    width: 97.1vw; /* ancho de footer*/
+    width: 93.5vw; /* ancho de footer*/
     
 
 }

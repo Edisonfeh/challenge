@@ -129,28 +129,34 @@ body{
     flex-direction: column-reverse;
     justify-content: flex;
     width: 80.55%;
+    padding: 15px 1px 1px 40px;
 }
 .presentacion__enlaces__link{
-    justify-content: flex;
+    justify-content: center;
     flex-direction: row;
+    padding: 15px 1px 1px 32px;
 }
 .imagen_ingeniero{
     justify-content: flex;
     width: 80.55%;
     height: 50%;
+    padding: 15px 1px 1px 40px;
 }
 .presentacion__contenido__texto{
     flex-direction: column-reverse;
     justify-content: flex;
     width: 80.55%;
+    padding: 15px 1px 1px 40px;
 }
 .presentacion__enlaces{
     flex-direction: column-reverse;
-    justify-content: flex;
+    justify-content: center;
     width: 80.55%;
+    padding: 15px 1px 1px 40px;
     
 }
 .presentacion__enlaces__subtitulo{
     font-size: 15 px;
+    padding: 15px 1px 1px 40px;
 }
 }

@@ -20,7 +20,7 @@ body{
     .header{
     padding: 2% 0 0 20%;
     background-image: linear-gradient(135deg
-    ,#3e7ea5,#1a455e,#142785);
+    ,#3e7ea5,#1a455e,#142785); /*fondo de header*/
     width: 80.5vw;
    
     }
@@ -43,7 +43,7 @@ body{
         align-items: center;
         justify-content:center;
         background-image: linear-gradient(135deg
-        ,#7ec9f5,#3957ed,#3e7a9c,#3957ed,#3957ed);
+        ,#7ec9f5,#3957ed,#3e7a9c,#3957ed,#3957ed); /*fondo body */
         background-color: #69ddec;
        
         ;

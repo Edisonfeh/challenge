@@ -158,7 +158,7 @@ input{
     text-align: center;
     font-family: "Montserrat", sans-serif;
     justify-content: flex;
-    width: 90.1vw; /* ancho de footer*/
+    width: 97.1vw; /* ancho de footer*/
     
 
 }
@@ -191,8 +191,11 @@ input{
    width: auto;
    padding: 10px 1px 0PX 50PX;
    }  
+   .footer{
+    width: 88vw;
+   }
    .fondo_pagina{
-    width: auto;
+    width: 99.5vw;
    }
 }
   

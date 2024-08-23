@@ -63,6 +63,7 @@ botonEncriptar.addEventListener("click",()=>{
      inputDestino.style.display = "block";
      botonCopiar.style.display = "block";//muestra el botón copiar
      imagen1.style.display="none";
+     alert("Texto Encriptado");
  }
  
  
@@ -87,5 +88,6 @@ botonCopiar.addEventListener("click",()=>{
     inputDestino.select();
     //copia el texto seleccionado
     document.execCommand("copy");
+    alert("Texto copiado Exitosamente");
 
 });

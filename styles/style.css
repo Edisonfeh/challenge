@@ -197,7 +197,13 @@ input{
    .fondo_pagina{
     width: auto;
    }
+    
+    .header{
+        width: 77.4vh;
+    }
 }
+  
+
 
 
 

@@ -89,7 +89,7 @@ input{
         .estilo__boton__encriptador{
             width: 60%;            
             text-align: center;
-            padding: 15.5px 20px;
+            padding: 16.5px 20px;
             border-radius: 16px;
             font-family: "Montserrat", sans-serif;
             font-size: 0.8rem;
@@ -105,7 +105,7 @@ input{
             .estilo__boton__Desencriptador{
                 width: 60%;            
             text-align: center;
-            padding: 15.5px 10px;
+            padding: 16.5px 10px;
             border-radius: 16px;
             font-family: "Montserrat", sans-serif;
             font-size: 0.8rem;
@@ -134,21 +134,40 @@ input{
     display: flex;
     width: 50%;           
     text-align: center;
-    padding: 21.5px 30px;
+    padding: 15.5px 30px;
     border-radius: 16px;
     font-family: "Montserrat", sans-serif;
-    font-size: 1.5rem;
-    font-weight: 600;
+    font-size: 1.1rem;
+    font-weight: 500;
     text-decoration: none;
     color: black;
     border: 2px groove #22d4fd;
     flex-direction: column;
     }
-.estilo__boton__copiar:hover{
-    background-color: #727272;/* cambia color de botones cuando pasamos el curso por encima*/
-    padding: 21.5% 10; /*espacio entre el borde del boton y el texto*/
-   
-}
+    .estilo__boton__copiar:hover{
+        background-color: #727272;/* cambia color de botones cuando pasamos el curso por encima*/
+        padding: 21.5% 10; /*espacio entre el borde del boton y el texto*/
+       
+    }
+    .estilo__boton__reiniciar{
+        display: flex;
+        width: 45%;           
+        text-align: center;
+        padding: 15.5px 35px;
+        border-radius: 16px;
+        font-family: "Montserrat", sans-serif;
+        font-size: 1.1rem;
+        font-weight: 500;
+        text-decoration: none;
+        color: black;
+        border: 2px groove #22d4fd;
+        flex-direction: column;
+        }
+        .estilo__boton__reiniciar:hover{
+            background-color: #727272;/* cambia color de botones cuando pasamos el curso por encima*/
+            padding: 21.5% 10; /*espacio entre el borde del boton y el texto*/
+           
+        }
 .footer{
     
     background-image: linear-gradient(135deg

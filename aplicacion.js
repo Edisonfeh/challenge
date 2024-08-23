@@ -3,12 +3,18 @@ const inputDestino = document.getElementById("input__destino");
 const botonEncriptar = document.getElementById("boton__encriptar");
 const botonDesencriptar =document.getElementById("boton__desencriptar");
 const botonCopiar = document.getElementById("boton__copiar");
+const botonReiniciar = document.getElementById("boton__reiniciar");
 const imagen1 = document.getElementById("imagen1");
 // ocultar boton copiar inicialmente
 botonCopiar.style.display = "none";
+
+//ocultar boton reinicar inicialmente
+botonReiniciar.style.display ="none";
+
 //ocultar input--destino
 inputDestino.style.display ="none";
 imagen1.style.display = "block"
+
 //funcion para encriptar
 
 function encriptarTexto(texto){
@@ -62,6 +68,7 @@ botonEncriptar.addEventListener("click",()=>{
      inputDestino.value = textoEncriptado; //muestra el input destinpo con el texto encriptado
      inputDestino.style.display = "block";
      botonCopiar.style.display = "block";//muestra el botón copiar
+     botonReiniciar.style.display = "block"; // muestra el boton reiniciar
      imagen1.style.display="none";
      alert("Texto Encriptado");
  }
@@ -76,6 +83,7 @@ botonDesencriptar.addEventListener("click",()=>{
       inputDestino.value = textoEncriptado; //muestra el input destinpo con el texto encriptado
       inputDestino.style.display = "block";
       botonCopiar.style.display = "block";//muestra el botón copiar
+      botonReiniciar.style.display = "block"; // muestra el boton reiniciar
       imagen1.style.display="none";
   }
   
@@ -91,3 +99,7 @@ botonCopiar.addEventListener("click",()=>{
     alert("Texto copiado Exitosamente");
 
 });
+//codigo del boton reiniciar
+botonReiniciar.onclick = function (){
+    location.reload();
+};
